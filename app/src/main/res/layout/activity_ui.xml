@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@drawable/backcover"
     android:layout_height="match_parent"
     tools:context=".ui">
 
@@ -94,6 +95,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
+        android:onClick="OnExit"
         android:text="EXIT"
         android:textSize="20dp"
         android:textStyle="bold"
@@ -114,6 +116,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
+        android:onClick="OnLogout"
         android:text="LOG OUT"
         android:textSize="20dp"
         android:textStyle="bold"
